@@ -31,4 +31,4 @@ listContainer.addEventListener("click", function(e){
 function showTask(){
     listContainer.innerHTML = localStorage.getItem("data");
 }
-showData();
+showTask();
